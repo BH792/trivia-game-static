@@ -15,7 +15,7 @@ let socket;
 let username;
 let currentQuestion;
 const url = 'https://enigmatic-beyond-50418.herokuapp.com/'
-const wsurl = 'ws://enigmatic-beyond-50418.herokuapp.com/'
+const wsurl = 'wss://enigmatic-beyond-50418.herokuapp.com/'
 
 function connect(e) {
   e.preventDefault()
